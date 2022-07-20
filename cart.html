@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Fashion Store</title>
+</head>
+
+<body>
+    <section id="header">
+        <a onclick="window.location.href='index.html';"><img src="img/logo.png" alt=""></a>
+        <div>
+            <ul id="nav_bar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fal fa-shopping-cart"></i></a></li>
+                <a href="#" id="close"><i class="fal fa-times"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fal fa-shopping-cart"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page_Header" class="cart-header">
+        <h2>CART</h2>
+        <p>You can write the Coupon code to get a discount!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Products</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></a></td>
+                    <td><img src="img/Products/p1.jpg" alt=""></td>
+                    <td>Hawaiian Shirt Men</td>
+                    <td>199 EGP</td>
+                    <td><input type="number" value="1"></td>
+                    <td>199 EGP</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></a></td>
+                    <td><img src="img/Products/p4.jpg" alt=""></td>
+                    <td>Paul Smith Shirt</td>
+                    <td>210 EGP</td>
+                    <td><input type="number" value="1"></td>
+                    <td>210 EGP</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></a></td>
+                    <td><img src="img/Products/s1.jpg" alt=""></td>
+                    <td>My Hero Academia T-Shirt</td>
+                    <td>99 EGP</td>
+                    <td><input type="number" value="1"></td>
+                    <td>99 EGP</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="card-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>508 EGP</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>50 EGP</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>558 EGP</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 247 Area, 6 October, Giza EGYPT</p>
+            <p><strong>Phone Number:</strong> +20 114 895 1078</p>
+            <p><strong>Hours:</strong> 1O:OO - 18:OO, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/profile.php?id=100007746554410" target="_blank" class="home__social-icon"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/mohamed_hussein001/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://twitter.com/mohamed7ussein2" target="_blank" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.linkedin.com/in/mohamed-hussein-a00b91232/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About US</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play:</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Geteways:</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>All rigths reserved © Fashion Store | Created by: <a href="https://barmaj-online.web.app/" target="_blank">Mohamed Hussein</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
